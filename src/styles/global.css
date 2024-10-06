@@ -12,6 +12,7 @@ p, input, textarea {
 
  h1,h2,h3,h4,h5,h6,span {
   font-family: "Montserrat", sans-serif;
+  font-size: 2rem !important;
 }
 
 a {
@@ -24,7 +25,7 @@ a {
     color: white;
   }
   body {
-    background-color: hsla(243, 60%, 95%, 1);
+    background-color: rgb(254, 254, 255);
   }
 }
 

@@ -2,10 +2,10 @@ import React from "react"
 import Fade from "react-reveal/Fade"
 
 // Assets
-import HeroImage from "../../images/holographic-background-1.webp"
-import Image1 from "../../images/3D-liquid-abstract-1.webp"
-import Image2 from "../../images/3D-liquid-abstract.webp"
-import Image3 from "../../images/3D-liquid-abstract-3.webp"
+import HeroImage from "../../images/HeroImage.png"
+import Image1 from "../../images/education.png"
+import Image2 from "../../images/gas.png"
+import Image3 from "../../images/bigdata.png"
 
 const FeatureSection = () => {
   return (
@@ -13,16 +13,16 @@ const FeatureSection = () => {
       <Fade bottom cascade>
         <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row content-center justify-center align-middle text-center">
           <div className="w-1/3 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-black text-2xl">Performance</h3>
+            <h3 className="text-black text-2xl">Успех</h3>
             <h4 className="mt-10 text-black  opacity-70 text-xl">95+</h4>
           </div>
 
           <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-white text-2xl">Accessibility</h3>
+            <h3 className="text-white text-2xl">Доступность</h3>
             <h4 className="mt-10 text-white opacity-70 text-xl">100</h4>
           </div>
           <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-white text-2xl">Best Practices</h3>
+            <h3 className="text-white text-2xl">Стандарты</h3>
             <h4 className="mt-10 text-white opacity-70 text-xl">100</h4>
           </div>
           <div className="lg:rounded-xl lg:w-1/3 lg:bg-dp bg-dp p-8 rounded-xl m-5 xxs:w-full xxs:bg-dp xxs:rounded-xl xs:w-full xs:bg-dp xs:rounded-xl sm:hidden md:hidden lg:block">
@@ -43,15 +43,13 @@ const FeatureSection = () => {
           </div>
 
           <div className="lg:w-1/2 sm:text-center lg:text-right flex flex-col justify-center">
-            <h2 className="text-black text-4xl font-semibold">PERFORMANCE</h2>
+            <h2 className="text-black text-4xl font-semibold">УСПЕХ</h2>
             <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
-              Time to unlock new speeds
+              Разработка передового программного обеспечения
             </h3>
 
             <p className="mt-3 text-base text-black-70 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-auto lg:mr-0">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s.
+              Мы специализируемся на создании сложных программных решений, адаптированных к уникальным потребностям бизнеса.
             </p>
 
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-end">
@@ -60,15 +58,16 @@ const FeatureSection = () => {
                   href="tel:#"
                   className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-black border border-purple hover:bg-transparent md:text-lg md:px-10"
                 >
-                  Call Us Now
+                  Позвоните нам сейчас
                 </a>
               </div>
               <div className="mt-3 sm:mt-0 sm:ml-3">
                 <a
-                  href="/gallery"
+                  //href="/gallery"
+                  href="#"
                   className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 border border-purple text-base font-medium rounded-md text-black hover:text-white bg-transparent hover:bg-purple md:py-3 md:text-lg md:px-10"
                 >
-                  View Gallery
+                  Посмотреть галерею
                   <svg
                     className="w-3.5 h-3.5 ms-2 rtl:rotate-180"
                     aria-hidden="true"
@@ -100,36 +99,56 @@ const FeatureSection = () => {
             <div className="mt-5">
               <div>
                 <p className="text-black text-2xl">Gatsby 5+</p>
-                <p className="text-black opacity-50 text-sm">SSG and more...</p>
-              </div>
-              <div className="mt-5">
-                <p className="text-black text-2xl">React 18+</p>
-                <p className="text-black opacity-50 text-sm">Create more...</p>
+                <p className="text-black opacity-50 text-sm">React 18+</p>
+                {/*<p className="text-black opacity-50 text-sm">SSG and more...</p>*/}
               </div>
               <div className="mt-5">
                 <p className="text-black text-2xl">Tailwind CSS 3+</p>
-                <p className="text-black opacity-50 text-sm">
-                  A utility-first CSS
-                </p>
+                <p className="text-black opacity-50 text-sm">Node.js</p>
+              </div>
+              <div className="mt-5">
+                <p className="text-black text-2xl">Vue.js</p>
+                <p className="text-black opacity-50 text-sm">PostgreSql</p>
+              </div>
+              <div className="mt-5">
+                <p className="text-black text-2xl">Express</p>
+                <p className="text-black opacity-50 text-sm">MongoDB</p>
+              </div>
+              <div className="mt-5">
+                <p className="text-black text-2xl">Docker</p>
+                <p className="text-black opacity-50 text-sm">C</p>
+              </div>
+              <div className="mt-5">
+                <p className="text-black text-2xl">C#</p>
+                <p className="text-black opacity-50 text-sm">Nginx</p>
+              </div>
+              <div className="mt-5">
+                <p className="text-black text-2xl">Traefix</p>
+                <p className="text-black opacity-50 text-sm">Quasar</p>
               </div>
             </div>
           </div>
 
           <div className="w-4/6 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-4/6">
             <h2 className="text-white text-4xl">
-              Start building amazing web experiences
+              Начните создавать удивительные веб-опыты
             </h2>
             <p className="mt-10 text-white opacity-70">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of
-              Lorem Ipsum.
+              Наша команда состоит из высококвалифицированных IT-специалистов, включая программистов, дата-сайентистов, аналитиков данных, 
+              веб-разработчиков и IT-стратегов. Мы являемся пионерами в области искусственного интеллекта, машинного обучения и цифровой 
+              трансформации, раздвигая границы возможного в сфере информационных технологий.
+            </p>
+            <p className="mt-10 text-white opacity-70">
+              Мы специализируемся на создании сложных программных решений, адаптированных к уникальным потребностям бизнеса. Наши услуги 
+              включают:
+            </p>
+            <p className="mt-10 text-white opacity-70">
+              <ul>
+                <li className="mt-10 text-white opacity-70">* Разработка индивидуального программного обеспечения</li>
+                <li className="mt-3 text-white opacity-70">* Интеграция корпоративных приложений</li>
+                <li className="mt-3 text-white opacity-70">* Облачные решения</li>
+                <li className="mt-3 text-white opacity-70">* IT-консалтинг и стратегии</li>
+              </ul>
             </p>
           </div>
         </div>
@@ -137,49 +156,41 @@ const FeatureSection = () => {
 
       <div className="mt-10 px-8">
         <h2 className="text-black text-4xl font-semibold opacity-70">
-          OPEN SOURCE
+          РАЗРАБОТКА КАСТОМНОГО ПО
         </h2>
         <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
-          A React based framework
+          Индивидуальные решения для каждой отрасли
         </h3>
         <p className="text-black opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
+          Наши услуги по разработке кастомного программного обеспечения предназначены для удовлетворения уникальных потребностей вашего бизнеса. 
+          От концепции до внедрения мы создаем индивидуальные решения, которые повышают эффективность и способствуют инновациям в 
+          различных секторах, включая здравоохранение, финансы, розничную торговлю и производство. С акцентом на масштабируемость и 
+          интеграцию наше программное обеспечение разрабатывается так, чтобы адаптироваться и расти вместе с вашей организацией.
         </p>
       </div>
 
       <div className="mt-10 px-8">
         <h2 className="text-black text-4xl font-semibold opacity-70">
-          INTEGRATIONS
+          ОТРАСЛЕВЫЕ РЕШЕНИЯ
         </h2>
         <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
-          Discover and connect
+          Укрепление вашего бизнеса с помощью экспертизы
         </h3>
         <p className="text-black opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
+          Наша команда понимает нюансы различных отраслей, предоставляя специализированное программное обеспечение, которое 
+          соответствует вашим операционным целям. Нужна ли вам кастомная система ЭМК для здравоохранения или мощная платформа 
+          электронной коммерции для розничной торговли, мы используем наши обширные знания для создания решений, которые не 
+          только соответствуют, но и превосходят отраслевые стандарты. Сотрудничайте с нами, чтобы усилить ваше конкурентное 
+          преимущество и оптимизировать процессы.
         </p>
         <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
           <div className="rounded-md">
             <a
-              href="/contact/"
+              //href="/contact/"
+              href="#"
               className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-black border border-purple hover:bg-transparent md:text-lg md:px-10"
             >
-              Send Enquiry
+              Отправить запрос
             </a>
           </div>
         </div>
@@ -202,20 +213,20 @@ const FeatureSection = () => {
       <Fade bottom cascade>
         <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row content-center justify-center align-middle text-center">
           <div className="w-1/3 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-black text-2xl">v1.0.0</h3>
-            <h4 className="mt-10 text-black opacity-70 text-xl">Released</h4>
+            <h3 className="text-black text-2xl">Образование</h3>
+            <h4 className="mt-10 text-black opacity-70 text-xl">Выпущено</h4>
           </div>
 
           <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-white text-2xl">Fork</h3>
+            <h3 className="text-white text-2xl">Газовая промышленность</h3>
             <h4 className="mt-10 text-white opacity-70 text-xl">
-              PR's welcome
+              Пользовательское программное обеспечение
             </h4>
           </div>
           <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-white text-2xl">Stars</h3>
+            <h3 className="text-white text-2xl">Наука о данных</h3>
             <h4 className="mt-10 text-white opacity-70 text-xl">
-              Give support
+              Прикладная наука о данных
             </h4>
           </div>
         </div>

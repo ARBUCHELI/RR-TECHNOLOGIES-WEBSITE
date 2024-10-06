@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import React from "react"
 
-import logo from "../images/3D-liquid-abstract-5.webp"
+import logo from "../images/logo.png"
 
 const Footer = () => {
   return (
@@ -12,20 +12,20 @@ const Footer = () => {
             <div>
               <img className="max-h-28 max-w-xs" src={logo} alt="Holo"></img>
               <p className="text-black opacity-70 text-sm mt-5 ">
-                A stunning and minimal<br></br> personalized website starter
-                theme
+                Мы специализируемся на создании сложных программных решений,<br></br>
+                адаптированных для удовлетворения 
                 <br></br>
-                built with Gatsby.
+                уникальных потребностей бизнеса.
               </p>
               <p className="text-white text-lg font-bold mt-20">
                 <span className="text-black font-montserrat font-semibold mt-20">
-                  &copy; {new Date().getFullYear()}. All Rights Reserved.
+                  &copy; {new Date().getFullYear()}. все права защищены.
                 </span>
               </p>
               <div className="text-black font-bold block-inline">
                 <p>
                   <a className="text-black font-bold block-inline" href="/">
-                    Holo
+                    RR
                   </a>
 
                   <a
@@ -33,7 +33,7 @@ const Footer = () => {
                     target="_blank"
                     href="https://travislord.xyz"
                   >
-                    By TL
+                    Technologies
                   </a>
                   <a
                     href="https://github.com/lilxyzz/holo-theme"
@@ -41,7 +41,7 @@ const Footer = () => {
                   >
                     <img
                       className="w-5 h-5 mt-1"
-                      src="/img/Github-Logo.png"
+                      src={logo}
                       alt="GitHub"
                     ></img>
                   </a>
@@ -52,19 +52,19 @@ const Footer = () => {
             <div className="place-self-end self-center xxs:hidden lg:block">
               <ul className="text-xl font-montserrat font-medium">
                 <li>
-                  <Link to="/">Home</Link>
+                  <Link to="/">Главная</Link>
                 </li>
                 <li>
-                  <Link to="/about">About</Link>
+                  <Link to="/about">О нас</Link>
                 </li>
                 <li>
-                  <Link to="/gallery">Gallery</Link>
+                  <Link to="/gallery">Продукты</Link>
                 </li>{" "}
                 <li>
-                  <Link to="/blog">Blog</Link>
+                  <Link to="/blog">Журнал</Link>
                 </li>
                 <li>
-                  <Link to="/contact">Contact</Link>
+                  <Link to="/contact">Контакты</Link>
                 </li>
               </ul>
             </div>

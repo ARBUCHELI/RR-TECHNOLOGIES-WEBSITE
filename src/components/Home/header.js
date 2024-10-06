@@ -1,7 +1,7 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
 
-import hero from "../../images/removed-Holographic.webp"
+import hero from "../../images/favicon-32x32.png"
 
 const Header = () => {
   return (
@@ -10,26 +10,26 @@ const Header = () => {
         <div className="my-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-0 xl:mt-28 flex gap-10 lg:flex-justify lg:flex flex-col lg:flex-row flex-col-reverse">
           <div className="text-center lg:text-left flex flex-col justify-center">
             <h1 className="text-black text-4xl font-semibold opacity-70">
-              MY NAME IS HOLO
+              RR-TECHNOLOGIES
             </h1>
             <h2 className="text-black text-gradient bg-gradient-to-r from-pink to-purple text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl">
-              Hi there!
+              Ведущий будущее ИТ-инноваций!
             </h2>
 
             <p className="mt-3 text-base text-black-70 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-              I'm a streamlined, lightweight theme starter kit crafted on
-              Gatsby. My design marries minimalist elegance with contemporary
-              flair, offering an unparalleled aesthetic experience for the
-              modern web.
+              В компании RR Technologies мы формируем будущее информационных технологий, интегрируя современные решения в различных IT-домейнах. 
+              Наша экспертиза заключается в использовании передовых технологий для достижения трансформационных результатов для бизнеса и 
+              отраслей.
             </p>
 
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
               <div className="rounded-md">
                 <a
-                  href="/contact"
+                  //href="/contact"
+                  href="#"
                   className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-black border border-purple  hover:bg-transparent md:text-lg md:px-10 "
                 >
-                  Contact Us
+                    вяжитесь с нами
                   <svg
                     className="w-3.5 h-3.5 ms-2 rtl:rotate-180"
                     aria-hidden="true"
@@ -49,16 +49,17 @@ const Header = () => {
               </div>
               <div className="mt-3 sm:mt-0 sm:ml-3">
                 <a
-                  href="/about"
+                  //href="/about"
+                  href="#"
                   className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 border border-purple text-base font-medium rounded-md text-black hover:text-white bg-transparent hover:bg-purple md:py-3 md:text-lg md:px-10"
                 >
-                  Get To Know Us
+                  Познакомьтесь с нами
                 </a>
               </div>
             </div>
           </div>
 
-          <div className="lg:inset-y-0 lg:right-0 lg:w-1/2 my-4 flex lg:justify-end justify-center">
+          <div className="lg:inset-y-0 lg:right-0 lg:w-1/2 my-4 flex lg:justify-center justify-center">
             <img
               className="rounded-xl w-auto h-full object-cover flex justify-center"
               src={hero}
