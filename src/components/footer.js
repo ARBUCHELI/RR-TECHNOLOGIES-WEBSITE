@@ -55,16 +55,16 @@ const Footer = () => {
                   <Link to="/">Главная</Link>
                 </li>
                 <li>
-                  <Link to="/">О нас</Link>
+                  <Link to="/#">О нас</Link>
                 </li>
                 <li>
-                  <Link to="/">Продукты</Link>
+                  <Link to="/#">Продукты</Link>
                 </li>{" "}
                 <li>
-                  <Link to="/">Журнал</Link>
+                  <Link to="/#">Журнал</Link>
                 </li>
                 <li>
-                  <Link to="/">Контакты</Link>
+                  <Link to="/#">Контакты</Link>
                 </li>
               </ul>
             </div>
