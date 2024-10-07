@@ -3,6 +3,7 @@ module.exports = {
     title: ``,
     description: `RR Technologies - Moscow.`,
     author: `Andres R. Bucheli <andresrbucheli@gmail.com>`,
+    siteUrl: 'https://www.yourdomain.com',
   },
   plugins: [
     `gatsby-plugin-image`,
