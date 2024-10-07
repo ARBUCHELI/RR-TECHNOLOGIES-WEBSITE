@@ -12,9 +12,9 @@ const Blog = ({ data }) => {
 
   return (
     <Layout>
-      <Seo
-        title="Holo - Blog"
-        description="Holo is a visually striking and highly customizable open source theme built on the powerful Gatsby framework and integrated with the versatile Decap CMS"
+      <Seo 
+        title="РР Технологи - Blog" 
+        description="RR Technologies - Moscow."
       ></Seo>
       <BlogHeader post={HeaderPost} />
       <BlogsContainer data={otherPosts} />

@@ -13,7 +13,7 @@ const IndexPage = () => (
     <Layout>
       <Seo
         title="РР Технологии"
-        description="Holo is a visually striking and highly customizable open source theme built on the powerful Gatsby framework and integrated with the versatile Decap CMS."
+        description="RR Technologies - Moscow."
       ></Seo>
       <Header></Header>
       <FeatureSection></FeatureSection>
