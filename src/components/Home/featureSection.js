@@ -13,16 +13,16 @@ const FeatureSection = () => {
       <Fade bottom cascade>
         <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row content-center justify-center align-middle text-center">
           <div className="w-1/3 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-black text-2xl">Успех</h3>
+            <h3 className="text-black text-2xl">Success</h3>
             <h4 className="mt-10 text-black  opacity-70 text-xl">95+</h4>
           </div>
 
           <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-white text-2xl">Доступность</h3>
+            <h3 className="text-white text-2xl">Availability</h3>
             <h4 className="mt-10 text-white opacity-70 text-xl">100</h4>
           </div>
           <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-white text-2xl">Стандарты</h3>
+            <h3 className="text-white text-2xl">Standards</h3>
             <h4 className="mt-10 text-white opacity-70 text-xl">100</h4>
           </div>
           <div className="lg:rounded-xl lg:w-1/3 lg:bg-dp bg-dp p-8 rounded-xl m-5 xxs:w-full xxs:bg-dp xxs:rounded-xl xs:w-full xs:bg-dp xs:rounded-xl sm:hidden md:hidden lg:block">
@@ -43,13 +43,13 @@ const FeatureSection = () => {
           </div>
 
           <div className="lg:w-1/2 sm:text-center lg:text-right flex flex-col justify-center">
-            <h2 className="text-black text-4xl font-semibold">УСПЕХ</h2>
+            <h2 className="text-black text-4xl font-semibold">Success</h2>
             <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
-              Разработка передового программного обеспечения
+              Development of advanced software
             </h3>
 
             <p className="mt-3 text-base text-black-70 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-auto lg:mr-0">
-              Мы специализируемся на создании сложных программных решений, адаптированных к уникальным потребностям бизнеса.
+              We specialize in creating efficient software solutions tailored to the unique needs of the business.
             </p>
 
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-end">
@@ -58,7 +58,7 @@ const FeatureSection = () => {
                   href="tel:#"
                   className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-black border border-purple hover:bg-transparent md:text-lg md:px-10"
                 >
-                  Позвоните нам сейчас
+                  Call us now
                 </a>
               </div>
               <div className="mt-3 sm:mt-0 sm:ml-3">
@@ -67,7 +67,7 @@ const FeatureSection = () => {
                   href="#"
                   className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 border border-purple text-base font-medium rounded-md text-black hover:text-white bg-transparent hover:bg-purple md:py-3 md:text-lg md:px-10"
                 >
-                  Посмотреть галерею
+                    View the gallery
                   <svg
                     className="w-3.5 h-3.5 ms-2 rtl:rotate-180"
                     aria-hidden="true"
@@ -131,23 +131,23 @@ const FeatureSection = () => {
 
           <div className="w-4/6 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-4/6">
             <h2 className="text-white text-4xl">
-              Начните создавать удивительные веб-опыты
+              Start creating amazing web experiences
             </h2>
             <p className="mt-10 text-white opacity-70">
-              Наша команда состоит из высококвалифицированных IT-специалистов, включая программистов, дата-сайентистов, аналитиков данных, 
-              веб-разработчиков и IT-стратегов. Мы являемся пионерами в области искусственного интеллекта, машинного обучения и цифровой 
-              трансформации, раздвигая границы возможного в сфере информационных технологий.
+              Our team consists of highly qualified IT specialists, including programmers, data scientists, data analysts,
+              web developers and IT strategists. We are pioneers in the field of artificial intelligence, machine learning and digital 
+              transformation, pushing the boundaries of what is possible in the field of information technology.
             </p>
             <p className="mt-10 text-white opacity-70">
-              Мы специализируемся на создании сложных программных решений, адаптированных к уникальным потребностям бизнеса. Наши услуги 
-              включают:
+            We specialize in creating efficient software solutions tailored to the unique needs of the business. Our services 
+            include:
             </p>
             <p className="mt-10 text-white opacity-70">
               <ul>
-                <li className="mt-10 text-white opacity-70">* Разработка индивидуального программного обеспечения</li>
-                <li className="mt-3 text-white opacity-70">* Интеграция корпоративных приложений</li>
-                <li className="mt-3 text-white opacity-70">* Облачные решения</li>
-                <li className="mt-3 text-white opacity-70">* IT-консалтинг и стратегии</li>
+                <li className="mt-10 text-white opacity-70">* Development of individual software</li>
+                <li className="mt-3 text-white opacity-70">* Integration of enterprise applications</li>
+                <li className="mt-3 text-white opacity-70">* Cloud solutions</li>
+                <li className="mt-3 text-white opacity-70">* IT consulting and strategies</li>
               </ul>
             </p>
           </div>
@@ -156,32 +156,32 @@ const FeatureSection = () => {
 
       <div className="mt-10 px-8">
         <h2 className="text-black text-4xl font-semibold opacity-70">
-          РАЗРАБОТКА КАСТОМНОГО ПО
+          CUSTOM SOFTWARE DEVELOPMENT
         </h2>
         <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
-          Индивидуальные решения для каждой отрасли
+          Customized solutions for each industry
         </h3>
         <p className="text-black opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
-          Наши услуги по разработке кастомного программного обеспечения предназначены для удовлетворения уникальных потребностей вашего бизнеса. 
-          От концепции до внедрения мы создаем индивидуальные решения, которые повышают эффективность и способствуют инновациям в 
-          различных секторах, включая здравоохранение, финансы, розничную торговлю и производство. С акцентом на масштабируемость и 
-          интеграцию наше программное обеспечение разрабатывается так, чтобы адаптироваться и расти вместе с вашей организацией.
+          Our custom software development services are designed to meet the unique needs of your business. 
+          From concept to implementation, we create customized solutions that increase efficiency and promote innovation in 
+          various sectors, including healthcare, finance, retail and manufacturing. With an emphasis on scalability and 
+          Integration Our software is designed to adapt and grow with your organization.
         </p>
       </div>
 
       <div className="mt-10 px-8">
         <h2 className="text-black text-4xl font-semibold opacity-70">
-          ОТРАСЛЕВЫЕ РЕШЕНИЯ
+          INDUSTRY SOLUTIONS
         </h2>
         <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
-          Укрепление вашего бизнеса с помощью экспертизы
+          Strengthening your business with expertise
         </h3>
         <p className="text-black opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
-          Наша команда понимает нюансы различных отраслей, предоставляя специализированное программное обеспечение, которое 
-          соответствует вашим операционным целям. Нужна ли вам кастомная система ЭМК для здравоохранения или мощная платформа 
-          электронной коммерции для розничной торговли, мы используем наши обширные знания для создания решений, которые не 
-          только соответствуют, но и превосходят отраслевые стандарты. Сотрудничайте с нами, чтобы усилить ваше конкурентное 
-          преимущество и оптимизировать процессы.
+          Our team understands the nuances of various industries by providing specialized software that 
+          meets your operational goals.  It doesn't matter if you need a custom EMC system for healthcare or a powerful platform 
+          e-commerce for retail, we use our extensive knowledge to create solutions that do not 
+          only meet, but also exceed industry standards. Cooperate with us to strengthen your competitive advantage 
+          benefit and optimize processes.
         </p>
         <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
           <div className="rounded-md">
@@ -190,7 +190,7 @@ const FeatureSection = () => {
               href="#"
               className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-black border border-purple hover:bg-transparent md:text-lg md:px-10"
             >
-              Отправить запрос
+              Send a request
             </a>
           </div>
         </div>
@@ -213,20 +213,20 @@ const FeatureSection = () => {
       <Fade bottom cascade>
         <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row content-center justify-center align-middle text-center">
           <div className="w-1/3 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-black text-2xl">Образование</h3>
-            <h4 className="mt-10 text-black opacity-70 text-xl">Выпущено</h4>
+            <h3 className="text-black text-2xl">Education</h3>
+            <h4 className="mt-10 text-black opacity-70 text-xl">Released</h4>
           </div>
 
           <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-white text-2xl">Газовая промышленность</h3>
+            <h3 className="text-white text-2xl">Heavy Industry</h3>
             <h4 className="mt-10 text-white opacity-70 text-xl">
-              Пользовательское программное обеспечение
+              Custom Software
             </h4>
           </div>
           <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-white text-2xl">Наука о данных</h3>
+            <h3 className="text-white text-2xl">Data Science</h3>
             <h4 className="mt-10 text-white opacity-70 text-xl">
-              Прикладная наука о данных
+              Applied Data Science
             </h4>
           </div>
         </div>

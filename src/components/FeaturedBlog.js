@@ -7,26 +7,26 @@ const FeaturedBlog = () => {
       <div className="bg-transparent">
         <div className="pt-6 px-6 lg:px-0 mx-auto max-w-screen-xl lg:pt-8  ">
           <h2 className="text-black text-4xl opacity-70 font-semibold pl-4">
-            БУДЬТЕ В КУРСЕ ПОСЛЕДНИХ СОБЫТИЙ
+            STAY UPDATED WITH THE LATEST DEVELOPMENTS
           </h2>
           <h3 className="text-black pl-4 text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
-            Последние записи
+            Recent entries
           </h3>
           <div className="blog-hover bg-gradient-to-r from-pink to-purple border mt-10 border-gray-200 rounded-lg p-8 md:p-12 mb-8">
             <h2 className="text-black text-3xl font-simibold mb-2">
-              Революция в энергетике: инновационное приложение промышленного интеллекта Газпрома
+              Bucheli Web Development Leads the Way in Industrial Intelligence Platforms
             </h2>
             <p className="text-lg  text-black opacity-60 mb-6">
-              В революционном шаге Газпром заключил партнерство с RR Technologies для запуска инновационного приложения промышленной 
-              интеллектуальной системы, разработанного для оптимизации операций и улучшения принятия решений в рамках его обширной 
-              энергетической сети.
+              Bucheli Web Development has emerged as a frontrunner in the rapidly evolving field of industrial 
+              intelligence, successfully crafting cutting-edge platforms that are transforming the way industries
+              operate. 
             </p>
             <a
               //href="/blog/blog-post"
               href="#"
               className="transition-all duration-500ms ease-in-out hover:ease-in-out inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center text-black hover:text-white rounded-lg border border-purple  hover:bg-purple"
             >
-                Читать дальше
+              Read more
               <svg
                 className="w-3.5 h-3.5 ms-2 rtl:rotate-180"
                 aria-hidden="true"
@@ -47,20 +47,20 @@ const FeaturedBlog = () => {
           <div className="grid md:grid-cols-2 gap-8">
             <div className="blog-hover bg-white rounded-lg p-8 md:p-12">
               <h2 className="text-gray-900 text-3xl font-simibold mb-2">
-                RR Technologies: Применение науки о данных на новом уровне
+                Bucheli Web Development: Taking Data Science to a next level
               </h2>
               <p className="text-lg font-normal text-gray-500 dark:text-gray-400 mb-4">
-                Компания RR Technologies, быстро набирающая популярность в сфере разработки программного обеспечения, успешно 
-                применяет науку о данных для решения сложных бизнес-задач. Специализируясь на создании интеллектуальных решений 
-                для различных отраслей, RR Technologies использует современные алгоритмы машинного обучения и аналитики для 
-                оптимизации бизнес-процессов своих клиентов.
+                The company Bucheli Web Development, which is rapidly gaining popularity in the field of specialized software development, is successfully 
+                applying data science to solve complex business problems. Specializing in the creation of intelligent solutions 
+                for various industries, Bucheli Web Development uses modern machine learning and analytics algorithms in the 
+                optimization of the business processes of their clients.
               </p>
               <a
                 //href="/blog/blog-post-1"
                 href="#"
                 className="transition-all duration-500ms ease-in-out hover:ease-in-out inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center text-black hover:text-white  rounded-lg border border-purple  hover:bg-purple"
               >
-                Читать дальше
+                Read more
                 <svg
                   className="w-3.5 h-3.5 ms-2 rtl:rotate-180"
                   aria-hidden="true"
@@ -80,18 +80,19 @@ const FeaturedBlog = () => {
             </div>
             <div className="blog-hover bg-white rounded-lg p-8 md:p-12">
               <h2 className="text-gray-900 text-3xl font-simibold mb-2">
-              RR Technologies: Инновационные приложения для энергетического сектора России
+                Bucheli Web Development: Innovative web applications for the Business Intelligence sector
               </h2>
               <p className="text-lg font-normal text-gray-500 dark:text-gray-400 mb-4">
-                Компания RR Technologies, лидер в области разработки программного обеспечения, начинает новый этап сотрудничества 
-                с крупнейшими энергетическими компаниями России, включая Газпром и Роснефть. 
+                By combining expert knowledge in software development with advanced data analytics and machine 
+                learning, Bucheli has created robust solutions that streamline operations, improve efficiency, 
+                and provide real-time insights across manufacturing, logistics, and energy sectors.
               </p>
               <a
                 //href="/blog/blog-post-2"
                 href="#"
                 className="transition-all duration-500ms ease-in-out hover:ease-in-out inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center text-black hover:text-white  rounded-lg border border-purple  hover:bg-purple"
               >
-                Читать дальше
+                Read more
                 <svg
                   className="w-3.5 h-3.5 ms-2 rtl:rotate-180"
                   aria-hidden="true"
