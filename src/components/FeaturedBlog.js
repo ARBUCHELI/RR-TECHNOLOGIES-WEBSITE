@@ -14,10 +14,10 @@ const FeaturedBlog = () => {
           </h3>
           <div className="blog-hover bg-gradient-to-r from-pink to-purple border mt-10 border-gray-200 rounded-lg p-8 md:p-12 mb-8">
             <h2 className="text-black text-3xl font-simibold mb-2">
-              Bucheli Web Development Leads the Way in Industrial Intelligence Platforms
+              Bucheli Software Development Leads the Way in Industrial Intelligence Platforms
             </h2>
             <p className="text-lg  text-black opacity-60 mb-6">
-              Bucheli Web Development has emerged as a frontrunner in the rapidly evolving field of industrial 
+              Bucheli Software Development has emerged as a frontrunner in the rapidly evolving field of industrial 
               intelligence, successfully crafting cutting-edge platforms that are transforming the way industries
               operate. 
             </p>
@@ -47,12 +47,12 @@ const FeaturedBlog = () => {
           <div className="grid md:grid-cols-2 gap-8">
             <div className="blog-hover bg-white rounded-lg p-8 md:p-12">
               <h2 className="text-gray-900 text-3xl font-simibold mb-2">
-                Bucheli Web Development: Taking Data Science to a next level
+                Bucheli Software Development: Taking Data Science to a next level
               </h2>
               <p className="text-lg font-normal text-gray-500 dark:text-gray-400 mb-4">
-                The company Bucheli Web Development, which is rapidly gaining popularity in the field of specialized software development, is successfully 
+                The company Bucheli Software Development, which is rapidly gaining popularity in the field of specialized software development, is successfully 
                 applying data science to solve complex business problems. Specializing in the creation of intelligent solutions 
-                for various industries, Bucheli Web Development uses modern machine learning and analytics algorithms in the 
+                for various industries, Bucheli Software Development uses modern machine learning and analytics algorithms in the 
                 optimization of the business processes of their clients.
               </p>
               <a
@@ -80,11 +80,11 @@ const FeaturedBlog = () => {
             </div>
             <div className="blog-hover bg-white rounded-lg p-8 md:p-12">
               <h2 className="text-gray-900 text-3xl font-simibold mb-2">
-                Bucheli Web Development: Innovative web applications for the Business Intelligence sector
+                Bucheli Software Development: Innovative web applications for the Business Intelligence sector
               </h2>
               <p className="text-lg font-normal text-gray-500 dark:text-gray-400 mb-4">
                 By combining expert knowledge in software development with advanced data analytics and machine 
-                learning, Bucheli has created robust solutions that streamline operations, improve efficiency, 
+                learning, Bucheli Software Development has created robust solutions that streamline operations, improve efficiency, 
                 and provide real-time insights across manufacturing, logistics, and energy sectors.
               </p>
               <a

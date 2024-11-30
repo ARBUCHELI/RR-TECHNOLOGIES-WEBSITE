@@ -33,7 +33,7 @@ const Footer = () => {
                     target="_blank"
                     href="https://travislord.xyz"
                   >
-                    Web Development
+                    Software Development
                   </a>
                   <a
                     href="https://github.com/lilxyzz/holo-theme"
