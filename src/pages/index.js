@@ -12,8 +12,8 @@ const IndexPage = () => (
   <div className="h-auto w-screen">
     <Layout>
       <Seo
-        title="РР Технологии"
-        description="RR Technologies - Moscow."
+        title="Bucheli Web Dev"
+        description="Bucheli Web Dev - Nizhny."
       ></Seo>
       <Header></Header>
       <FeatureSection></FeatureSection>
